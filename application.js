@@ -14,10 +14,10 @@ function processForm() {
 		comment = document.getElementById("comment");
 		content = document.getElementById("output")
 		
-		content.innerText = "Your Contact information is: " + 
-			 " First/Last name - " + firstlast.value +
-			 " Address - " + address.value +
-			 " Phone Number - " + phonenumber.value + 
+		content.innerText = "Your Contact information is: " + "\n" +
+			 " First/Last name - " + firstlast.value + "\n" +
+			 " Address - " + address.value + "\n" +
+			 " Phone Number - " + phonenumber.value + "\n" +
 			 " Comments - " + comment.value 
 
 
