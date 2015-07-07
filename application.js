@@ -14,7 +14,7 @@ function processForm() {
 		comment = document.getElementById("comment");
 		content = document.getElementById("output")
 		
-		content.innerText = "Your Contact information is: " + "\n" +
+		content.innerText = "Your Contact information is: " + "\n" + "\n" +
 			 " First/Last name - " + firstlast.value + "\n" +
 			 " Address - " + address.value + "\n" +
 			 " Phone Number - " + phonenumber.value + "\n" +
